@@ -1,0 +1,44 @@
+Use Postman or similar app to construct and send requests
+
+POST
+/customer
+{
+    
+	"custName": "Isha",
+	"custEmail":Isha@hotmail.com
+	"city": "Mumbai",
+	"state": "MH",
+	"country": "INDIA",
+	"phoneNo": "9702643899"
+	
+	
+}
+
+
+DELETE
+/customer/{acctID}
+/account/{acctID}
+
+GET
+/customer/{acctID}
+/account/{acctID}/balance
+/account/{acctID}
+/account/{acctID}/logs
+
+PUT
+/account/{acctID}/deposit/{amount}
+/account/{acctID}/withdraw/{amount}
+/account/{acctID}/transfer/{destAcctID}/{amount}
+
+
+
+
+
+
+
+
+
+
+
+
+
